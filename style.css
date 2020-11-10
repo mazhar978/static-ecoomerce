@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    background-color: unset !important;
+    position: sticky !important;
+}
+.header{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    background: radial-gradient(white, orange);
+}
+.uperwala{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    margin-top: 20px;
+}
+.left{
+    width: 50%;
+}
+.left h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-top: 30px;
+
+}
+.left p{
+    text-align: justify;
+    font-style: oblique;
+    word-spacing: 2px;
+}
+.left button{
+    padding: 10px 25px;
+    background-color:orange;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 80px;
+    border: 3px solid black;
+}
+.right{
+    width: 50%;
+    transform: translate(-10px);
+}
+.right img{
+  width: 380px;
+  height: 300px;
+  margin-left: 40px;
+}
+.right1{
+    width: 50%;
+    height: auto;
+    margin-top: -20px;
+    margin-top: 60px;
+}
+.right1 p{
+    text-align: justify;
+    font-style: oblique;
+    word-spacing: 2px;
+}
+.right1 h1{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.right1 img{
+    height: 350px;
+    margin-left: 30px;
+    width: 400px
+}
+.right1 button{
+    padding: 10px 25px;
+    background-color:orange;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 80px;
+    border: 3px solid black;
+}
+.secondlast{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+.fa-paint-brush, .fa-bell-slash, .fa-arrow-circle-down{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.card1, .card2, .card3{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: black
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 4px 5px grey;
+    align-items: center;
+    border: 2px solid grey;
+    box-shadow: 5px grey;
+    margin-right: 30px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: unset;
+    color: unset;
+    margin-top: 30px;
+}
+.footer{
+    background: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 760px) {
+    .uperwala{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        margin-top: 30px;
+    }
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.second h1{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card-img-top{
+     height: 300px;
+}
+.uperwala1{
+    width: 100%;
+    background: radial-gradient(white,orange);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    margin-top: 20px;
+}
+.imag{
+    align-self: center;
+    width: 30em;
+    padding-left: 40px;
+}
+
+.right h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.right p {
+    font-size: 18px;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+.right button{
+    background-color: orange;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 80px;
+    border: 2px solid black;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .imag{
+           margin-left: -100px;
+           margin-top: 50px;
+    }
+    .right h1{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 830px){
+    .uperwala{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .right img{
+        width: 400px;
+        margin-left: 90px;
+    }
+    .imag{
+        margin-left: 50px;
+    }
+    .right1{
+        width: 100%;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 700px){
+      .right1 h1{
+          font-size: 65px;
+      }
+      .imag{
+          margin-left: -50px;
+      }
+      .right1{
+          margin-left: -1px;
+      }
+}
+@media only screen and (max-width: 603px){
+    .right img {
+        margin-left: -20px;
+    }
+    .imag{
+        margin-left: -70px;
+    }
+    .right1 h1{
+        font-size: 60px;
+    }
+    .right1{
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .imag{
+        margin-left: -90px;
+    }
+    .right1{
+        margin-left: -10px;
+    }
+    .right1 h1{
+        font-size: 60px;
+    }
+}
+
+
+    @media only screen and (max-width: 464px) {
+        .left{
+            width: 100%;
+        }
+        .left h1{
+            font-size: 25x;
+            text-align: left;
+        }
+        .right{
+           margin-left: -50px;
+        }
+        .imag{
+            margin-left: -120px;
+            width: 400px;
+        }
+        .right1 h1{
+            font-size: 48px;
+        }
+        .card1, .card2, .card3{
+            width: 100%;
+            margin-left: 25px;
+        }
+        .right img{
+            width: 300px;
+            margin-left: 40px;
+        }
+    }
+    .form{
+        margin: 10px auto;
+        border: 3px solid grey;
+        background-color: white;
+        max-width: 300px;
+        padding: 50px 20px;
+    }
+    .form input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px
+    }
+    .submit{
+        width: 100%;
+        outline: none;
+    }
+    @media only screen and (max-width: 360px) {
+        body{
+            width: 100%;
+        }
+        .right img{
+            margin-left: -5px;
+            width: 300px;
+            margin-left: 7px;
+        }
+        .uperwala{
+            padding: -50px;
+        }
+        .left{
+            width: 100%;
+            margin: -10px;
+        }
+        .right1{
+            width: 100%;
+        }
+        .right1 h1{
+            font-size: 33px;
+        }
+        .imag{
+            width: 350px;
+            margin-left: -100px;
+        }
+        
+    }
